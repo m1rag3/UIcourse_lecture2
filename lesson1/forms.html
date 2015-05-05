@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal data</legend>
+                <input type="text" required placeholder="Name"><br>
+                <input type="email" required placeholder="Mail"><br>
+                <input type="password" required placeholder="Password"><br>
+                <input type="number" required placeholder="Age" min="10" max="65" step="1"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Personal information</legend>
+                    <input type="radio" name="1" value="1">Men<br>
+                    <input type="radio" name="1" value="2">Women<br>
+                    <p>Your device?</p>
+                    <input type="checkbox">Smartphone<br>
+                    <input type="checkbox">Tablet<br>
+            </fieldset>
+            <fieldset>
+                <legend>Select your OS</legend>
+                    <select>
+                        <option>Android</option>
+                        <option>IOS</option>
+                        <option>Windows Mobile</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <input type="url" formnovalidate placeholder="your home url here"><br>
+                <p>Select your display size</p>
+                <input type=range min=3.5 max=15 value=3.5 id=fader step=0.5 oninput="outputUpdate(value)">
+                <output id=size>3.5</output>
+                <script>
+                    function outputUpdate(vol) {
+                        document.querySelector('#size').value = vol;
+                    }
+                </script>
+            </fieldset>
+            <p><input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            <input type="button" value="Do Nothing">
+            </p>
+        </form>
+    </body>
+</html>
