@@ -15,11 +15,11 @@
             </fieldset>
             <fieldset>
                 <legend>Personal information</legend>
-                    <input type="radio" name="1" value="1">Men<br>
-                    <input type="radio" name="1" value="2">Women<br>
+                    <input id="men" type="radio" name="1" value="1"><label for="men">Men</label><br>
+                    <input id="women" type="radio" name="1" value="2"><label for="women">Women</label><br>
                     <p>Your device?</p>
-                    <input type="checkbox">Smartphone<br>
-                    <input type="checkbox">Tablet<br>
+                    <input id="smart" type="checkbox"><label for="smart">Smartphone</label><br>
+                    <input id="tablet" type="checkbox"><label for="tablet">Tablet</label><br>
             </fieldset>
             <fieldset>
                 <legend>Select your OS</legend>
@@ -33,7 +33,7 @@
                 <legend>Contact</legend>
                 <input type="url" formnovalidate placeholder="your home url here"><br>
                 <p>Select your display size</p>
-                <input type=range min=3.5 max=15 value=3.5 id=fader step=0.5 oninput="outputUpdate(value)">
+                <input type=range min=3.5 max=15 value=3.5 id="fader" step=0.5 oninput="outputUpdate(value)">
                 <output id=size>3.5</output>
                 <script>
                     function outputUpdate(vol) {

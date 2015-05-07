@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fonts.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fonts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fonts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="695" selection-end="695" vertical-scroll-proportion="0.52619046" vertical-offset="0" max-vertical-offset="840">
+            <state line="26" column="7" selection-start="695" selection-end="695" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="forms.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1997" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="35" column="17" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/forms.html" />
         <option value="$PROJECT_DIR$/fonts.html" />
+        <option value="$PROJECT_DIR$/forms.html" />
       </list>
     </option>
   </component>
@@ -122,7 +122,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -192,6 +192,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fonts.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="493">
           <folding />
         </state>
@@ -239,16 +253,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms.html">
+    <entry file="file://$PROJECT_DIR$/fonts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state line="26" column="7" selection-start="695" selection-end="695" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts.html">
+    <entry file="file://$PROJECT_DIR$/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="695" selection-end="695" vertical-scroll-proportion="0.52619046" vertical-offset="0" max-vertical-offset="840">
+        <state line="35" column="17" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
