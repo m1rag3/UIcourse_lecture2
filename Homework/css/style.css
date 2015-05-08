@@ -35,7 +35,7 @@ header{
     width: 49%;
     margin-top: 20px;
 }
-#detector{
+.detector{
     height: 30px;
     width: 100px;
     border: 0;
@@ -56,26 +56,26 @@ header{
 textarea{
     resize: none;
 }
-#title{
+.title{
     display: block;
     float: left;
     margin-right: 4px;
     margin-bottom: 1px;
     margin-top: 16px;
 }
-#title_t{
+.title_t{
     margin: 13px 0 0 11px;
 }
-#body{
+.body{
     display: block;
     float: left;
     margin: 16px 4px 16px 0;
 }
-#body_t{
+.body_t{
     margin: 13px 0 0 7px;
 
 }
-#button_s{
+.button_s{
     height: 30px;
     width: 100px;
     border: 0;
