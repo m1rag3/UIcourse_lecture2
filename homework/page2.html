@@ -3,32 +3,41 @@
 <head>
     <title>Create Article</title>
     <meta charset="utf-8">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <header><b>Article</b>
-        <input class="button_h" type="button" value="Home" Onclick="window.location.href='index.html'">
-        <input class="button_h" type="button" value="Create Article">
+<div class="wrapper-site">
+    <header class="header">
+        <input class="btn" type="button" value="Home" Onclick="window.location.href='index.html'">
+        <input class="btn" type="button" value="Create Article">
     </header>
-    <div class="article">
-        <form>
-            <fieldset>
-                <legend>Form for article creation</legend>
-                   <p class="title">Title:</p><textarea class="title_t" placeholder="Title" cols="50" rows="2"></textarea><br>
-                   <p class="body">Body:</p><textarea class="body_t" placeholder="Type text" cols="50" rows="20"></textarea>
-                   <p><input class="button_s" type="submit" value="Send"></p>
-            </fieldset>
-        </form>
-    </div>
-    <div class="update">
-        <input class="detector" type="button" value="Online/Offline">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
-    </div>
+    <section class="container">
+        <article class="container-box">
+            <form class="form-wrapper">
+                <fieldset>
+                    <legend>Form for article creation</legend>
+                    <label for="form-input-title">Title:</label>
+                    <input type="text" class="input-title" id="form-input-title" placeholder="Title">
+
+                    <label for="form-input-body">Body:</label>
+                    <textarea rows="10" class="input-body" id="form-input-body" placeholder="Title"></textarea>
+
+                    <input class="btn" type="submit" value="Send">
+                </fieldset>
+            </form>
+        </article>
+        <article class="container-box">
+            <input class="btn" type="button" value="Online/Offline">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </article>
+    </section>
+</div>
 </body>
 </html>

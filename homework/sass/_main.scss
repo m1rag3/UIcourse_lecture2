@@ -1,87 +1,57 @@
 *{
   list-style: none;
 }
-header{
-  background-color: #ff4141;
-  height: 16%;
-  width: 99%;
-  color: white;
+body{
+  background-color: $body-color-bg;
+  font-size: $body-font-size;
+}
+.wrapper-site{
+  width: 960px;
+  margin: 0 auto;
+}
+.btn{
+  background-color: #105cb6;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  transition: all .2s ease;
+  &:hover{
+    background-color: #1175dd;
+  }
+}
+.header{
   text-align: center;
-  padding: 8px;
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: 24px;
+  width: 400px;
+  margin: 10px auto 20px auto;
+  border: $header-border;
 }
-.button_h{
-  height: 30px;
-  width: 100px;
-  margin: 1px;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
+.container{
+  .container-box{
+    width: 46%;
+    margin: 0 2%;
+    padding: 10px;
+    float: left;
+    min-height: 400px;
+    @include border-radius(10px);
+    border: $container-box-border;
+  }
 }
-.list{
-  float: left;
-  background-color: whitesmoke;
-  height: 45%;
-  width: 49%;
-  color: black;
-  border: 3px solid red;
-  margin-top: 20px;
-}
-.update{
-  float: right;
-  height: 45%;
-  width: 49%;
-  margin-top: 20px;
-}
-.detector{
-  height: 30px;
-  width: 100px;
-  border: 0;
-  border-radius: 5px;
-  margin-left: 40%;
-  margin-top: 15px;
-  cursor: pointer;
-}
-.article{
-  float: left;
-  background-color: whitesmoke;
-  height: 45%;
-  width: 49%;
-  color: black;
-  border: 3px solid red;
-  margin-top: 20px;
-}
-textarea{
-  resize: none;
-}
-.title{
-  display: block;
-  float: left;
-  margin-right: 4px;
-  margin-bottom: 1px;
-  margin-top: 16px;
-}
-.title_t{
-  margin: 13px 0 0 11px;
-}
-.body{
-  display: block;
-  float: left;
-  margin: 16px 4px 16px 0;
-}
-.body_t{
-  margin: 13px 0 0 7px;
+// Form
+// ------
 
-}
-.button_s{
-  height: 30px;
-  width: 100px;
-  border: 0;
-  border-radius: 5px;
-  margin-left: 55%;
-  cursor: pointer;
+.form-wrapper{
+  label{
+    display: block;
+    padding: 10px 0;
+  }
+  .input-title,
+  .input-body{
+    width: 100%;
+    padding: 10px;
+  }
+  .input-body{
+    margin: 0 0 10px;
+  }
 }
 
 
