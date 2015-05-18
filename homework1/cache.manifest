@@ -1,0 +1,11 @@
+CACHE MANIFEST
+/index.html
+/page2.html
+css/style.css
+
+FALLBACK:
+/error.html
+
+NETWORK:
+search.php
+/api

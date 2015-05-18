@@ -1,0 +1,109 @@
+/* line 1, ../sass/_main.scss */
+* {
+  list-style: none;
+}
+
+/* line 4, ../sass/_main.scss */
+header {
+  background-color: #ff4141;
+  height: 16%;
+  width: 99%;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+/* line 15, ../sass/_main.scss */
+.button_h {
+  height: 30px;
+  width: 100px;
+  margin: 1px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 23, ../sass/_main.scss */
+.list {
+  float: left;
+  background-color: whitesmoke;
+  height: 45%;
+  width: 49%;
+  color: black;
+  border: 3px solid red;
+  margin-top: 20px;
+}
+
+/* line 32, ../sass/_main.scss */
+.update {
+  float: right;
+  height: 45%;
+  width: 49%;
+  margin-top: 20px;
+}
+
+/* line 38, ../sass/_main.scss */
+.detector {
+  height: 30px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* line 47, ../sass/_main.scss */
+.article {
+  float: left;
+  background-color: whitesmoke;
+  height: 45%;
+  width: 49%;
+  color: black;
+  border: 3px solid red;
+  margin-top: 20px;
+}
+
+/* line 56, ../sass/_main.scss */
+textarea {
+  resize: none;
+}
+
+/* line 59, ../sass/_main.scss */
+.title {
+  display: block;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 1px;
+  margin-top: 16px;
+}
+
+/* line 66, ../sass/_main.scss */
+.title_t {
+  margin: 13px 0 0 11px;
+}
+
+/* line 69, ../sass/_main.scss */
+.body {
+  display: block;
+  float: left;
+  margin: 16px 4px 16px 0;
+}
+
+/* line 74, ../sass/_main.scss */
+.body_t {
+  margin: 13px 0 0 7px;
+}
+
+/* line 78, ../sass/_main.scss */
+.button_s {
+  height: 30px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 55%;
+  cursor: pointer;
+}
