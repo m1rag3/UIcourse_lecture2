@@ -2,21 +2,24 @@
   list-style: none;
 }
 body{
+  background: url("../images/background.jpg") repeat;
   background-color: $body-color-bg;
   font-size: $body-font-size;
+  color: #fff;
 }
 .wrapper-site{
   width: 960px;
   margin: 0 auto;
 }
 .btn{
-  background-color: #105cb6;
+  background-color: #b65132;
   border: none;
+  @include border-radius(5px);
   color: #fff;
   padding: 10px;
   transition: all .2s ease;
   &:hover{
-    background-color: #1175dd;
+    background-color: #dd6640;
   }
 }
 .header{
@@ -53,7 +56,9 @@ body{
     margin: 0 0 10px;
   }
 }
-
+fieldset{
+  border: none;
+}
 
 
 
